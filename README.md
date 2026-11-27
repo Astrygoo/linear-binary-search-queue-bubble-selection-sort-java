@@ -87,7 +87,7 @@ java -cp build OptimasiBubbleSort
 
 Soal 1 meminta tiga NIM berbeda, dan Soal 2 menerima pilihan menu serta nama pembeli. Jalankan keduanya di terminal terintegrasi VS Code agar kamu dapat mengetik input. Soal 3 sampai 5 mencetak data dan hasil eksperimen secara otomatis.
 
-Folder `build/` berisi file `.class` hasil kompilasi. Folder itu dapat dibuat ulang dari source code dan tidak perlu dimasukkan ke repository; `.gitignore` mengecualikannya.
+Folder `build/` berisi file `.class` hasil kompilasi. Folder itu dapat dibuat ulang dari source code dan tidak dimasukkan ke repository, `.gitignore` mengecualikannya.
 
 ## Isi soal dan perintah menjalankan
 

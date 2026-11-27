@@ -87,7 +87,7 @@ java -cp build OptimasiBubbleSort
 
 Soal 1 meminta tiga NIM berbeda, dan Soal 2 menerima pilihan menu serta nama pembeli. Jalankan keduanya di terminal terintegrasi VS Code agar kamu dapat mengetik input. Soal 3 sampai 5 mencetak data dan hasil eksperimen secara otomatis.
 
-Folder `build/` berisi file `.class` hasil kompilasi. Folder itu dapat dibuat ulang dari source code dan tidak dimasukkan ke repository, `.gitignore` mengecualikannya.
+Folder `build/` berisi file `.class` hasil kompilasi, Folder `bukti/` berisi transkrip keluaran program. Folder itu dapat dibuat ulang dari source code dan tidak dimasukkan ke repository, `.gitignore` mengecualikannya.
 
 ## Isi soal dan perintah menjalankan
 
@@ -173,7 +173,4 @@ Hasil yang diharapkan untuk pola data uji tersebut:
 
 Perbandingan di loop bersarang adalah bagian yang paling banyak bekerja. Optimasi dapat mengurangi pemeriksaan pada data yang hampir terurut seperti pengujian ini. Worst-case kedua versi tetap O(n²); versi optimasi dapat mencapai O(n) pada data yang sudah terurut. Ruang tambahan keduanya O(1).
 
-## Bukti hasil dan laporan
-
-Folder `bukti/` berisi transkrip keluaran program. Untuk memenuhi ketentuan tugas yang meminta **screenshot**, jalankan program di VS Code dan ambil screenshot terminal yang memperlihatkan hasilnya. Untuk Soal 5, pastikan hasil 10, 50, dan 100 data terlihat. Perbarui screenshot setelah mengubah source code agar bukti sesuai dengan versi yang dikumpulkan.
 
